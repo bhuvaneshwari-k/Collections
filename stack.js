@@ -28,7 +28,7 @@ class Stack {
             }
             else{
                 while(temp.nextNode!= null){
-                    var prev=temp;
+                    let prev=temp;
                     temp=temp.nextNode;
                 }    
                prev.nextNode=temp.nextNode;   
@@ -51,7 +51,7 @@ class Stack {
         }
 }
 
-var stack = new Stack();
+let stack = new Stack();
 stack.addElement(12);
 stack.addElement(4);
 stack.addElement(10);
