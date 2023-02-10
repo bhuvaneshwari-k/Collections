@@ -27,8 +27,9 @@ class Stack {
                 this.rootNode=temp.nextNode;
             }
             else{
+                var prev;
                 while(temp.nextNode!= null){
-                    var prev=temp;
+                     prev=temp;
                     temp=temp.nextNode;
                 }    
                prev.nextNode=temp.nextNode;   
