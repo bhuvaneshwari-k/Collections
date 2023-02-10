@@ -5,7 +5,6 @@ class Node{
         this.data= value
     }
 }
-
 class LinkedList{
         rootNode = null;
         count = 0;
