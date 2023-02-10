@@ -88,7 +88,8 @@ console.log("ReduceRight:");
 let total1= arr6.reduceRight(getsum);
 console.log(total1);
 console.log("Reverse:");
-console.log(arr12.reverse());
+arr12.reverse()
+console.log(arr12);
 console.log("Shift:");
 console.log(arr12.shift());
 console.log("Unshift:");
