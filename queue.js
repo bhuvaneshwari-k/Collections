@@ -39,8 +39,7 @@ class Queue {
     console.log("Size of the Queue is:",this.count)
     }
     }
-
-var queue = new Queue(); 
+let queue = new Queue(); 
 queue.addElement(12);
 queue.addElement(4);
 queue.addElement(10);
