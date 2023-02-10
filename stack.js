@@ -13,7 +13,7 @@ class Stack {
             this.rootNode= new Node(value)
             this.count++;
         }else{
-            var temp = this.rootNode;
+            let temp = this.rootNode;
             while(temp.nextNode!= null){
                 temp = temp.nextNode;
             }
@@ -22,7 +22,7 @@ class Stack {
         }
     }
     removeElement(){
-            var temp = this.rootNode;
+            let temp = this.rootNode;
             if(this.count==1){
                 this.rootNode=temp.nextNode;
             }
@@ -38,7 +38,7 @@ class Stack {
 
 
     printElements(){
-        var temp = this.rootNode;
+        let temp = this.rootNode;
             if(temp == null){
                 console.log("Is empty!")
             }else{
