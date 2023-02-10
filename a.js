@@ -101,7 +101,7 @@ let even3= arr6.every(checkeven);
 console.log(even3);
 console.log("Sort:");
 let arr15 = [1,9,5,3,7,2];
-arr15.sort();
+arr15.sort((a, b) => (a - b));
 console.log(arr15);
 console.log("Splice:");
 console.log(arr15.splice(1,3));
